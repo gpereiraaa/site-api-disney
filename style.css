@@ -30,6 +30,9 @@ header {
     justify-content: space-between;
     display: flex;
 }
+img{
+    border-radius: 15px;
+}
 
 h1 {
     color: var(--cor-principal);
@@ -66,12 +69,19 @@ h1 {
 .caixa-de-pesquisa i {
     color: var(--cor-secundaria);
 }
+main{
+    min-height: 100vh;
+}
 
 .container-geral {
     display: flex;
+    flex-direction: row;
     padding: var(--padding-padrao);
     gap: 30px;
     flex-wrap: wrap;
+}
+.container-geral h3{
+    color: var(--cor-secundaria);
 }
 
 .container-geral img {
