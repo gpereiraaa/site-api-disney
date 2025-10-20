@@ -183,7 +183,11 @@ footer p {
 
 
 }
-@media (max-width: 400px) {
+@media (max-width: 488px) {
+    .container-geral{
+        align-items: center;
+        justify-content: center;
+    }
     .container-esquerda{
         align-items: center;
         justify-content: center;
